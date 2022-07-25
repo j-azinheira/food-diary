@@ -24,10 +24,12 @@ const Restaurants = (props) => {
           restaurantName={restaurant.restaurantName}
           description={restaurant.description}
           rating={restaurant.rating}
-          priceRange={restaurant.priceRange}
+          price={restaurant.price}
           latitude={restaurant.latitude}
           longitude={restaurant.longitude}
           url={restaurant.url}
+          lastVisit={restaurant.lastVisit}
+          image={restaurant.image}
         />
       ))}
     </CardGroup>

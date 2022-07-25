@@ -25,8 +25,8 @@ const restaurantSchema = new Schema(
       trim: true,
       minlength: 3,
     },
-    priceRange: {
-      type: String,
+    price: {
+      type: Number,
       required: false,
       unique: false,
       trim: true,
@@ -54,6 +54,20 @@ const restaurantSchema = new Schema(
       minlength: 3,
     },
     url: {
+      type: String,
+      required: false,
+      unique: true,
+      trim: true,
+      minlength: 3,
+    },
+    lastVisit: {
+      type: Date,
+      required: false,
+      unique: true,
+      trim: true,
+      minlength: 3,
+    },
+    image: {
       type: String,
       required: false,
       unique: true,
