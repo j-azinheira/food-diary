@@ -12,9 +12,9 @@ const Header = () => {
   return (
     <div className='container'>
       <nav className='navbar navbar-expand-lg navbar-light bg-light rounded'>
-        <a className='navbar-brand' href='#' style={{ marginLeft: '1rem' }}>
-          Comendo pelo Mundo
-        </a>
+        <Link to='/' style={{ marginLeft: '1rem' }}>
+          <h4>Papinhas boas</h4>
+        </Link>
         <button
           className='navbar-toggler'
           type='button'
@@ -31,13 +31,19 @@ const Header = () => {
           <ul className='navbar-nav mr-auto'>
             {/* TODO: set active style */}
             <li className='nav-item active'>
-              <Link to='/'>Lista de Restaurantes</Link>
+              <Link to='/' style={{ marginLeft: '10px' }}>
+                Lista de Restaurantes
+              </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/map'>Mapa Mundo</Link>
+              <Link to='/map' style={{ marginLeft: '10px' }}>
+                Mapa Mundo
+              </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/about-us'>Sobre Nós</Link>
+              <Link to='/about-us' style={{ marginLeft: '10px' }}>
+                Sobre Nós
+              </Link>
             </li>
           </ul>
           <form

@@ -1,3 +1,13 @@
 .restaurants-list {
-  margin: 20px;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 3rem;
+}
+
+.trap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }

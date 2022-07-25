@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import Restaurants from './components/Restaurants/Restaurants';
+import Footer from './components/Footer/Footer';
 
 const INITIAL_RESTAURANTS = [];
 
@@ -26,7 +27,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className='d-flex flex-column min-vh-100'>
       <Router>
         <Header />
         <Routes>
@@ -35,9 +36,10 @@ const App = () => {
             path='restaurants'
             element={<Restaurants restaurants={restaurants} />}
           />
-          <Route path='map' element={<Map />} />
+          <Route path='map' element={<Map restaurants={restaurants} />} />
           <Route path='about-us' element={<AboutUs />} />
         </Routes>
+        <Footer />
       </Router>
       {/* <Header />
       <Routes>
