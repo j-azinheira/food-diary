@@ -1,30 +1,26 @@
-# food-diary
+# Papinhas Boas
 
 <!-- ABOUT THE PROJECT -->
 <div id="top">
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
 </div>
+
+### About The Project
+
+The idea for the project Papinhas Boas (roughly translated to Good Foods) came as a fusion between two concepts: the demand from our family and friends for us to create a way to for them to keep up to date with our gastronomic adventures; and my interest in learning React.js in the context of the MERN stack (Mongo.db, Express.js, React.js and Node.js).
+
+The application has three main features:
+
+- Restaurant list: list with all of our favourite restaurants with a gallery of photos taken by us, price range, score, last visit and a button that redirects the user to restaraunt's location on a map.
+- Map view: world map view marked with every single restaurant listed (using Google's React Map component).
+- Newsletter subscription: allows visitors to sign-up to our newsletter with updates (using Mailchimp).
+
+There is also an About Us section to let people know a little more about us.
 
 ### Built With
 
 This project is being built using the MERN stack:
 
-- [![Mongodb][next.js]][next-url]
+- [![Mongodb][mongodb]][mongodb-url]
 - [![Express.js][express.js]][express.js-url]
 - [![React.js][react.js]][react.js-url]
 - [![Node.js][node.js]][node.js-url]
