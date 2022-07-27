@@ -10,11 +10,15 @@ The idea for the project Papinhas Boas (roughly translated to Good Foods) came a
 
 The application has three main features:
 
-- Restaurant list: list with all of our favourite restaurants with a gallery of photos taken by us, price range, score, last visit and a button that redirects the user to restaraunt's location on a map.
+- Restaurant list: list with all of our favorite restaurants with a gallery of photos taken by us, price range, score, last visit and a button that redirects the user to restaraunt's location on a map.
 - Map view: world map view marked with every single restaurant listed (using Google's React Map component).
 - Newsletter subscription: allows visitors to sign-up to our newsletter with updates (using Mailchimp).
 
 There is also an About Us section to let people know a little more about us.
+
+### Visit us at
+
+https://papinhas-boas.herokuapp.com (work-in-progress)
 
 ### Built With
 
